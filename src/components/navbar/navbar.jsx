@@ -1,17 +1,11 @@
-import React, { Component } from "react";
-import Footer from "../footer/footer";
-import Game from "../game/game";
+import React from "react";
 
-class Navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar navbar-light bg-light">
-        <span className="navbar-brand mb-0 h1">Click Guessing Game</span>
-        <div className="score-card">Current Score: {this.score}</div>
-        <div className="high-score">Best Score: {this.highScore}</div>
-      </nav>
-    );
-  }
-}
+const Navbar = props => (
+  <nav className="navbar navbar-light bg-light">
+    <span className="navbar-brand mb-0 h1">Click Guessing Game</span>
+    <div className="current-score">Current Score: {props.score}</div>
+    <div className="high-score">Best Score: {props.highScore}</div>
+  </nav>
+);
 
 export default Navbar;
