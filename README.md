@@ -1,3 +1,17 @@
+This clicky game is Call of Duty inspired. Here I use react components, and life cycle methods to make the game come to life!
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
