@@ -1,5 +1,8 @@
 This clicky game is Call of Duty inspired. Here I use react components, and life cycle methods to make the game come to life!
 
+Checkout the game here.
+https://shielded-refuge-34512.herokuapp.com/
+
 
 
 
